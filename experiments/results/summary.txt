@@ -1,0 +1,12 @@
+# TreeBoost experiment summary
+
+## Clean Friedman-#1 test set (n_train=n_test=600, sigma=1.0)
+     LS: test MSE = 1.9886, test MAE = 1.1356
+    LAD: test MSE = 2.3090, test MAE = 1.1938
+  HUBER: test MSE = 1.9771, test MAE = 1.1239
+
+## Contaminated training set (10% heavy-tail outliers)
+Metrics computed against the *clean* test signal f(x):
+     LS: clean-MSE = 33.0351, clean-MAE = 3.6314
+    LAD: clean-MSE = 3.4906, clean-MAE = 1.1678
+  HUBER: clean-MSE = 11.2777, clean-MAE = 1.8376
